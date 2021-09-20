@@ -1,59 +1,68 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
 body {
   font-family: "Open Sans", sans-serif;
-  background-color: rgb(235, 235, 235);
+  background-color: #ebebeb;
   padding: 0;
   margin-top: 23px;
   margin-bottom: 23px;
 }
-.container {
+
+body .container {
   margin-left: 32%;
   margin-right: 32%;
 }
-header {
+
+body .container header {
   padding-top: 1rem;
   padding-bottom: 25px;
   border-radius: 5px;
   text-align: center;
   background-color: white;
 }
-#Tim {
+
+body .container #Tim {
   width: 7rem;
   height: 7rem;
   border-radius: 100%;
-  border: 3px solid rgb(204, 204, 204);
+  border: 3px solid #cccccc;
   margin: 0 auto;
   display: block;
 }
-h1 {
-  color: rgb(221, 85, 85);
+
+body .container h1 {
+  color: #dd5555;
   text-align: center;
   margin-bottom: auto;
   font-weight: 800;
 }
-h2 {
+
+body .container h2 {
   text-align: center;
-  color: rgb(125, 125, 125);
+  color: #7d7d7d;
 }
-#TextIntro {
-  color: rgb(125, 125, 125);
+
+body .container #TextIntro {
+  color: #7d7d7d;
   line-height: 1.5rem;
   padding-left: 10px;
   text-align: left;
 }
-#Button {
+
+body .container #Button {
   height: 1.5rem;
-  background-color: rgb(221, 85, 85);
+  background-color: #dd5555;
   color: white;
   border-radius: 5px;
   padding: 10px;
   text-decoration: none;
   text-align: center;
 }
-#Button:hover {
+
+body .container #Button:hover {
   background-color: brown;
 }
-#Social {
+
+body nav #Social {
   margin-top: 20px;
   padding-top: 60px;
   padding-bottom: 60px;
@@ -61,71 +70,97 @@ h2 {
   padding-right: 60px;
   background-color: white;
   border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-around;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
-#Facebook:hover {
+
+body nav ul {
+  list-style: none;
+}
+
+body nav a {
+  text-decoration: none;
+}
+
+body nav li a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 400;
+  font-size: 20px;
+  color: #cccccc;
+}
+
+body nav #Facebook:hover {
   color: #0b84ee;
 }
-#Linkedin:hover {
+
+body nav #Linkedin:hover {
   color: #0a66c2;
 }
-#Twitter:hover {
+
+body nav #Twitter:hover {
   color: #1d9bf0;
 }
-#Movies {
+
+body #Movies {
   padding-top: 15px;
   padding-bottom: 15px;
   margin-top: 10px;
   background-color: white;
   border-radius: 5px;
 }
-ul {
-  list-style: none;
-}
-a {
-  text-decoration: none;
-}
-li a {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-weight: 400;
-  font-size: 20px;
-  color: #cccccc;
-}
-span {
+
+body #Movies span {
   background-color: #d4d4d4;
 }
-#SpaceOdyssey {
+
+body #Movies #SpaceOdyssey,
+body #Movies #MisterHulot,
+body #Movies #Alien {
   width: 100px;
   height: 125px;
   margin-top: 25px;
 }
-h3 {
+
+body #Movies h3 {
   color: #7d7e80;
 }
-.Description {
+
+body #Movies .Description {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   padding-left: 25px;
   padding-right: 25px;
 }
-.article {
+
+body #Movies .article {
   color: #8f8280;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding-bottom: 15px;
   padding-left: 20px;
 }
-#MisterHulot {
-  width: 100px;
-  height: 125px;
-  margin-top: 25px;
-}
-#Alien {
-  width: 100px;
-  height: 125px;
-  margin-top: 25px;
-}
+/*# sourceMappingURL=style.css.map */
